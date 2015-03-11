@@ -9,10 +9,6 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Russ Smith"]
   spec.email         = ["russ@bashme.org"]
 
-  if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com' to prevent pushes to rubygems.org, or delete to allow pushes to any server."
-  end
-
   spec.summary       = %q{Can't ever spell initialize? Then use Initizle! The lazy way to keep your code working.}
   spec.description   = %q{Can't ever spell initialize? Then use Initizle! The lazy way to keep your code working.}
   spec.homepage      = "https://github.com/russ/initizle"
